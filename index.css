@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    position: relative;
+    width: 500px;
+    height: 660px;
+    margin: 0 auto;
+    background-image: url(pic/background.png);
+    background-size: 100% 100%;
+}
+.wrapper .targetscore,.wrapper .currentscore{
+    color: aliceblue;
+    font-size: 20px;
+    z-index: 100;
+    text-align: center;
+    margin-top: 15px;
+}
+.wrapper .promot{
+    color: aliceblue;
+    font-size: 18px;
+    z-index: 100;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    opacity: 0;
+}
+
+.wrapper .clearance{
+    width: 300px;
+    height: 80px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    background-image: url(pic/clearance.png);
+    opacity: 0;
+}
+.wrapper .excelent{
+    width: 300px;
+    height: 80px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    background-image: url(pic/excelent.png);
+    opacity: 0;
+}
+.wrapper .good{
+    width: 200px;
+    height: 80px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 150px;
+    top: 80px;
+    background-image: url(pic/good.png);
+    opacity: 0;
+}
+
